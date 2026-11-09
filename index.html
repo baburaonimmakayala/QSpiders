@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="QSpiders Student Registration Form">
+<meta name="author" content="QSpiders">
+        <link rel="stylesheet" href="style.css">
+        <title>QSpiders Punjagutta</title>
+       
+    </head>
+    <body>
+        <div class="header">
+        <img class="icon" src="channels4_profile.jpg">
+        <h1 class="heading">Student Registration Form</h1>
+        </div>
+        <div class="form">
+            <form>
+                <div class="student">
+                <h1 class="sub">Student Details</h1>
+                <lebel>Username<span>*</span>:</lebel><br>
+                <input type="text" id="first" name="firstname" placeholder="Enter Firstname">
+                <input type="text" id="last" name="lastname" placeholder="Enter Lastname"> 
+                <br><br>
+                <label>Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter age"><br><br>
+                <label>Gender:</label>
+                <label>Male<input type="radio" id="gender" name="gender" value="male"></label>
+                <label>Female<input type="radio" id="gender" name="gender" value="female"></label>
+                <br><br>
+                <label>Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+                </div>
+
+                <div class="contact">
+                    <h2 class="sub">Contact Details</h2>
+                    <label>Mobile no<span>*</span>:</label>
+                    <input type="number" id="mobile" name="mobile" placeholder="+91">
+                    <br><br>
+                    <label>Email<span>*</span>:</label>
+                    <input type="mail" id="mail" name="mail" placeholder="example@gmail.com"><br><br>
+                    <label>Select Branch:</label>
+                    <select name="loc" id="loc">
+                        <option value="">Select Location</option>
+                        <option value="Punjagutta">Punjagutta</option>
+                        <option value="kbhp">KBHP</option>
+                        <option value="Madhapur">Madhapur</option>
+                    </select>
+                </div>
+
+                <div class="edu">
+                    <h2 class="sub">Education Details</h2>
+                    <label>Select Spacialization<span>*</span>:</label>
+                    <select name="edu" id="edu">
+                        <option value="">Select Group</option>
+                        <option value="bt">Btech</option>
+                        <option value="bca">BCA</option>
+                        <option value="bsc">BSC</option>
+                        <option value="mca">MCA</option>
+                        <option value="bba">BBA</option>
+                        <option value="mba">MBA</option>
+                    </select><br><br>
+                    <label>Any Active Backlogs:</label>
+                     <label>Yse<input type="radio" id="blog" name="blog" value="yes"></label>
+                     <label>No<input type="radio" id="blog" name="blog" value="no"></label><br><br>
+                     <label>if yes enter number of Backlogs:</label>
+                     <input type="number" id="blno" name="blno" placeholder="Enter no of Backlogs"><br><br>
+                     <label>Course Duration:</label>
+                     <label>Start date<input type="date" id="sdate" name="sdate"></label>
+                     <label>End date<input type="date" id="edate" name="edate"></label><br>
+                     <label>Still Studying<input type="checkbox" id="still" name="course"></label>
+                </div>
+
+                <div class="course">
+                    <h2 class="sub">Course Details</h2>
+                    <label>Select Course<span>*</span>:</label>
+                    <select id="course" name="course">
+                        <option value="">Select Domain</option>
+                        <option value="mern">Mern Stack</option>
+                        <option value="data">Data Analyst</option>
+                        <option value="dev">Devops</option>
+                        <option value="ai">AI & LLM</option>
+                        <option value="cloud">Cloud Computing</option>
+                        <option value="cyber">Cyber Security</option>
+                    </select><br><br>
+                    <label>Select Learning mode<span>*</span>:</label>
+                    <label>Online<input type="radio" name="mode" id="mode" value="online"></label>
+                    <label>Offline<input type="radio" name="mode" id="mode" value="offline"></label>
+                </div>
+
+                <div class="pay">
+                    <h2 class="sub">Payment</h2>
+                    <img src="gpay.png">
+                    <img src="PhonePe-Logo.wine.png">
+                    <img src="Mastercard-logo.png">
+                    <img src="BHIM_Preview.png">
+                </div>
+                <div class="uploads">
+                    <h2 class="sub">Upload Files</h2>
+                    <label>Upload Resume<span>*</span>:<input type="file" id="res" name="res"></label><br><br>
+                    <label>Upload Payment Screenshot<span>*</span>:<input type="file" id="sc" name="sc"></label>
+                </div>
+                <div class="btn">
+                <button>Submit</button>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+    </body>
+</html>
